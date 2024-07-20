@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    align-items: center;
+}
+.box1 i{
+    color: #d4d4d4;
+    background-color: white;
+    margin: 10px;
+    font-size: 12px;
+}
+.box1 i:hover{
+    color: #fab700;
+    cursor: pointer;
+}
+.country{
+    border: 1px solid #eee;
+    outline: none;
+    /* background-color: red; */
+    color: black;
+    padding: 10px;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.country:hover{
+    cursor: pointer;
+}
+.country>option:hover{
+    cursor: pointer;
+}
+.box2 a{
+    color: white;
+}
+.box2 > a > button{
+    background-color:#fab700 ;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    transition: all 300ms linear 0s;
+}
+.box2 a > button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #fab700;
+    cursor: pointer;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 55px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    z-index: 3;
+    
+}
+#image:hover{
+    cursor: pointer;
+}
+#navbar a{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size:15px;
+}
+#navbar div{
+    display: flex;
+    margin-right: 45px;
+    /* border: 1px solid #fab700; */
+}
+#navbar{
+    display: flex;
+    /* border: 1px solid #eee; */
+}
+#pages{
+    position: relative;
+}
+#navbar .dropdown{
+    display: none;
+    /* background-color: white;
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    height: 50px;
+    padding: 20px;
+    width: 150px;
+    z-index: 2; */
+
+}
+#navbar .dropdown2{
+    display: none;
+    
+
+}
+
+/* #pages:hover .dropdown{
+    display:block;
+    background-color: red;
+
+}    */
+#navbar div #home{
+    color:#fab700;
+}
+#navbar div a:hover{
+    color:#fab700;
+    
+}
+.home-banner{
+    background-image: url(images/home-banner.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-position:0px 100px; */
+    width: 100%;
+    height: 88vh;
+    color: white;
+}
+.home-banner > div{
+    position: absolute;
+    top:300px;
+    left: 300px;
+}
+.home-banner > div >h1{
+    font-size: 55px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: oswald;
+    border-radius: 4px;
+}
+.home-banner > div >h1>span{
+    background-color: #fab700;
+    color: black;
+    border-radius: 4px;
+    height: 10px;
+}
+.home-banner > div >p{
+    text-align: center;
+    margin-bottom:40px;
+}
+.home-banner > div >a>button{
+    padding: 0px 44px;
+    line-height: 50px;
+    color: #fab700;
+    background-color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: all 300ms linear 0s;
+    border: none;
+    outline: none;
+    margin-left: 175px;
+}
+
+.home-banner > div >a>button:hover{
+    color: black;
+    background-color:#fab700 ;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+/* .boxes{
+    background-color: #fab700;
+} */
+.boxes img{
+    margin-left: 100px;
+}
+.boxes h2{
+    font-family: oswald;
+    text-transform: capitalize;
+    text-align: center;
+}
+.boxes p{
+    text-align: center;
+    color: #777777;
+    font-family: mudassir;
+    font-size: 14px;
+}
+@font-face{
+    src: url(../../Fonts/Roboto/Roboto-Regular.ttf);
+    font-family: mudassir;
+}
+.paragraph1{
+    text-align: center;
+    color: #777777;
+    font-family: mudassir;
+    font-size: 14px;
+}
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#container2 > div{
+    width: 33.33%;
+    height: 200px;
+}
+#container2 > div > img{
+    width: 100%;
+    height: 100%;
+}
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-bottom: 500000px; */
+    margin-bottom: 200px;
+}
+#container3 > div{
+    height: 250px;
+}
+#container3>div>img{
+    width: 100%;
+    height: 100%;
+}
+.heading4{
+    text-align: center;
+    font-family: oswald;
+    line-height: 0px;
+}
+#container4{
+    background-color:#fab700 ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 200px;
+}
+#container4 > div > h1{
+    font-size: 40px;
+    line-height: 5px;
+    
+}
+#container4 > div > p{
+    color: rgb(100, 100, 100);
+    font-family: mudassir;
+    font-size: 14px;
+}
+#container5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: auto;
+    margin-bottom: 3%;
+    padding-left: 100px;
+    box-sizing: border-box;
+    /* align-items: center; */
+    /* background-color: rebeccapurple; */
+}
+#container5 > div > h4 > i{
+    margin-right: 10px;
+}
+#container5 > div{
+    width: 29%;
+    margin-bottom: 75px;
+}
+#container5 > div  h4:hover{
+    color:#fab700;
+}
+/* #container5 > div > h4 > i:hover{
+    color:#fab700;
+
+} */
+#container5 > div > p{
+    color: #777777;
+    font-size: 14px;
+    font-family: mudassir;
+}
+#container6{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.profiles{
+    display: flex;
+}
+.profile-image{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.profile-text p{
+    color: #777777;
+    font-family: mudassir;
+    font-size: 14px;
+}
+.profile-text h4{
+    font-family: Oswald,sans-serif;
+    font-size: 14px;
+    line-height: 0px;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+.profile-text h4:hover{
+    color: #fab700;
+}
+.profile-text h5{
+    color:rgb(150, 150, 150) ;
+    line-height: 0px;
+}
+#container7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+#footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+#footer > #f1{
+    width: 225px;
+    margin-right: 60px;
+
+}
+#footer > #f2{
+    width: 275px;
+    margin-right: 100px;
+}
+#footer p{
+    color: #777777;
+    font-size: 13px;
+    line-height: 20px;
+    /* margin: 0px; */
+}
+#footer h6{
+    font-size: 20px;
+    /* font-family: oswald;  */
+    text-transform: capitalize;
+    line-height: 0px;
+    /* margin: 5px; */
+    font-family: mudassir;
+}
+#f2 h2 a{
+    color: #fab700;
+    text-decoration: none;
+}
+#f3{
+    width: 385px;
+}
+#f3 p{
+    margin-bottom: 25px;
+}
+#f3 input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+#f3 i{
+    background-color: #fab700;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    left: 375px;
+}
+/* #f3 div{ */
+    /* display: none; */
+    /* position: relative; */
+    /* bottom: 20px; */
+    /* background-color: rebeccapurple; */
+/* } */
+/* #f3 i:focus div{
+    display: block;
+} */
+#f4{
+    margin-right: 430px;
+}
+#f4 p i{
+    margin-right: 5px;
+}
+#f4 p span{
+    color: #fab700;
+}
+#f5 i{
+    font-size: 20px;
+}
+#f5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width:150px;
+}
+#f5 div{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    background-color: black;
+}
+#f5>div>i{
+    color: white;
+    margin-left: 3px;
+}
+#f5 > div:hover{
+    background-color: #fab700;
+}
+#f5 > div > i:hover{
+    color: black;
+}
+
+
